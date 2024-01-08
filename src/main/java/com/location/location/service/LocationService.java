@@ -14,7 +14,7 @@ public class LocationService {
     @Autowired
     City city;
 
-    public List<CinemaHall> getCities() {
+    public List<City> getCities() {
         return new ArrayList<>();
     }
 }

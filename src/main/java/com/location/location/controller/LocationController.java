@@ -18,7 +18,7 @@ public class LocationController {
     LocationService locationService;
 
     @GetMapping("/getCities")
-    public ResponseEntity<List<CinemaHall>> getCities() {
+    public ResponseEntity<List<City>> getCities() {
          return ResponseEntity.ok(locationService.getCities());
     }
 }

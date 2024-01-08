@@ -3,6 +3,6 @@ package com.location.location.domain;
 import java.util.List;
 
 public class Cinema {
-    String name;
+    Movie movie;
     List<CinemaHall> cinemaHallList;
 }
