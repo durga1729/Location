@@ -8,7 +8,5 @@ import java.util.List;
 @Setter
 @Getter
 public class City {
-    String name;
-    String country;
-    List<CinemaHall> cinemaHallList;
+    List<Cinema> cinemaList;
 }

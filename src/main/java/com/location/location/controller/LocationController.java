@@ -16,7 +16,7 @@ public class LocationController {
     @Autowired
     LocationService locationService;
 
-    public ResponseEntity<List<CinemaHall>> getCity(@PathVariable String cityName) {
-         return ResponseEntity.ok(locationService.getCinemaHalls(cityName));
+    public ResponseEntity<List<CinemaHall>> getCities() {
+         return ResponseEntity.ok(locationService.getCities());
     }
 }
